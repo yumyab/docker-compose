@@ -17,3 +17,7 @@ The -d flag tells Docker to ‘detach’ the process and run it in the backgroun
 To stop the processes use;
 
 docker-compose down
+
+
+fix permissions:
+sudo chown -R under wp/
